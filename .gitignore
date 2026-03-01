@@ -1,5 +1,13 @@
 data/raw_structures/
 
+# Keep generated analysis data local only (do not sync to GitHub)
+results/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
 # Common structure files
 *.cif
 *.pdb
